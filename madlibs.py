@@ -18,10 +18,18 @@ liquid=input("Enter a liquid: ")
 body_part =input("Name a body part: ")
 
 
-print("It was a " + adj1 + ", cold November day. I woke up to the " + adj2 + " smell of\n" 
-     + bird + " roasting in the " + room + " downstairs. I " + verb1 + " down the stairs\n"
-+ "to see if I could help " + verb2 + " the dinner. My mom said,'See if your " + name1 +"\n" + 
-"needs a fresh " + noun1 + ".' So I carried a tray of glasses full of " + liquid + " into the\n"
-+ verb3 + " room. When I got there, I couldn't believe my " + body_part + "!. There were " + noun2 +"\n" 
-+ verb4 + " on the " + noun3 + ".") 
+print("It was a " + adj1 + ", cold November day.") 
+
+print("I woke up to the " + adj2 + " smell of " + bird + " roasting in the " + room + " downstairs.") 
+
+print("I " + verb1 + " down the stairs to see if I could help " + verb2 + " the dinner.") 
+
+print('My mom said,"See if your ' + name1  + " needs a fresh " + noun1 + '."')
+
+print("So I carried a tray of glasses full of " + liquid + " into the "+ verb3 + " room.")
+
+print("When I got there, I couldn't believe my " + body_part + "!.") 
+
+print("There were " + noun2 + " " + verb4 + " on the " + noun3 + ".") 
+
 
